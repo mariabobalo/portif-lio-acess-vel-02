@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel=" stylesheet" href="style.css">
+    <title>Meu portifólio</title>
+    
+</head>
+<body>
+  
+    <header class=" container text-center">
+      <div id="acessibilidade" class="menu-acessibilidade">
+        <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+      <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+        <button id="aumentar-fonte" class="btn btn-primary fw-bold"aria-label= "Aumentar o tamanho da fonte">A+</button>
+        <button id="diminuir-fonte" class="btn btn-primary fw-bold"aria-label= "Diminuir o tamanho da fonte">A-</button>
+        <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores">modo</button>
+      </div>
+
+    </div>
+        <img src="eu.jpg" alt= "meu avatar" title="avatar criado a aprtir de um estilo de pintura" class="rounded-circle" width="150" height="150">
+    <p class="lead"> Eu sou Maria</p>
+    <h1> Eu amo arte</h1>
+    <p tabindex="0">Sou estudante do ensino médio e apaixonada por arte e artesanato. Amo o fato de que, com linhas, agulhas, papel e tinta, além de paciência, atenção aos detalhes e criatividade, é possível criar obras cheias de personalidade e beleza.</p>
+    <p> Minhas habilidades</p>
+<div> 
+    <p class="badge text-bg-secondary"> Crochê</p>
+    <p class="badge text-bg-secondary">Pinturas </p>
+    <p class="badge text-bg-secondary">Plantas cultivadas </p>
+    <p class="badge text-bg-secondary">Bordado</p>
+</div>
+</header>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <main class="container mt-5">
+    <h2> Meus Projetos</h2>
+<div class="row" tabindex="0">
+    <!-- projeto1-->
+    <div class="col-md-4" ;>
+        <div class="card">
+            <img src="amigurumi.jpg" class="card-img-top" alt="imagem-projetos-amigurumis" >
+            <div class="card-body">
+              <h5 class="card-title">Amigurumi</h5>
+              <p class="card-text">Esse projeto é dois bichinhos em amigurumi feito em crochê, uma girafa feita em fio e um cachorro. Cada peça é feita com paciência e decicação a cada ponto, para que cada animal não seja apenas um brinquedo e sim uma obra única.</p>
+              <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#Modal1">Veja mais</button>
+            </div>
+        </div>
+    </div>
+    <!--projeto2-->
+    <div class="col-md-4" ;>
+        <div class="card">
+            <img src="pinturas em tela.jpg" class="card-img-top" alt="imagem-pinturas">
+            <div class="card-body">
+              <h5 class="card-title">Pinturas em tela</h5>
+              <p class="card-text">Esse projeto são pinturas em tela, com tinta acrílica, várias paisagens e flores, pintadas com cuidado e dedicação, cada pincelada com um toque de tinta tudo para tornar as telas brancas em quadros únicos.</p>
+              <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#Modal2">Veja mais</button>
+            </div>
+        </div>
+    </div>
+    <!--projeto3-->
+    <div class="col-md-4";>
+        <div class="card">
+            <img src="imagem3.jpg" class="card-img-top" alt="imagem-desenhos">
+            <div class="card-body">
+              <h5 class="card-title">Desenho</h5>
+              <p class="card-text">Esse projeto são desenhos feitos com lápis, várias releituras e obras autorais, feitas com paciência, traço por traço.</p>
+              <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#Modal3">Veja mais</button>
+            </div>
+        </div>
+    </div>
+</div>
+  </main>
+
+  <!--modal 1-->
+  <div class="modal" id="Modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Crochê</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Além de amigurumis, no crochê também faço tapetes, carteiras, souplats, assim transformando um rolo de fio em qualquer coisa que desejar.</p>
+        <img src="modal1imagem1.jpg" class="img-fluid w-100" alt="Imagem modal1 "> 
+        <img src="modal1imagem2.jpg" class="img-fluid w-100" alt="Imagem modal1 ">
+        <img src="modal1imagem3.jpg"class="img-fluid w-100"  alt="Imagem modal1 ">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--modal 2-->
+  <div class="modal" id="Modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">pinturas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Ao todo tenho 8 quadros pintados em tinta acrílica, sendo a maioria paisagens e flores.</p>
+          <img src="modal2img1.jpg" class="img-fluid w-100" alt="Imagem modal1 "> 
+          <img src="modal2img2.jpg" class="img-fluid w-100" alt="Imagem modal1 "> 
+          <img src="modal2img3.jpg" class="img-fluid w-100" alt="Imagem modal1 "> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--modal 3-->
+  <div class="modal" id="Modal3" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">desenhos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Tenho varios desenhos feitos a lápis, alguns são releituras, outros são desenhos de paisagens autoral.</p>
+          <img src="modal3img1.jpg" class="img-fluid w-100" alt="Imagem modal1 ">
+          <img src="modal3img2.jpg" class="img-fluid w-100" alt="Imagem modal1 ">
+          <img src="modal3img3.jpg" class="img-fluid w-100" alt="Imagem modal1 ">  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="container py-5">
+<h2> Entre em contato</h2>
+<div>
+    <a href=" https://mail.google.com/mail/u/0/?hl=pt-BR#inbox"> Gmail</a>
+</div>
+<p class="my-5 text-center"> Copyright 2024. Produzido por Maria Aparecida Bobalo</p>
+  </footer >
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
